@@ -5,8 +5,8 @@ from pathlib import Path
 
 # Search string: Replace string
 REPLACE_TXTS = {
-    '{{A701}}': 'AgilentI5',
-    '{{A702}}': 'AgilentI7',
+    '{{A701}}': 'Primer_Pair_1_I7',
+    '{{A501}}': 'Primer_Pair_1_I5',
     '{{ATCACGAC}}': 'CAAGGTGA',
     '{{TGAACCTT}}': 'TGAACCTT',
     '{{ACAGTGGT}}': 'AGTCACTT',
