@@ -21,7 +21,7 @@ excel.Visible = False
 
 try:
     # open xlsx
-    wb = excel.Workbooks.Add(str(nowdir / 'template.xlsx'))
+    wb = excel.Workbooks.Add(str(nowdir / 'test_sample_sheet.xlsx'))
     sheet = wb.WorkSheets(1)
     sheet.Activate()
 
@@ -31,7 +31,7 @@ try:
         rg.Replace(search_txt, replace_Txt)
 
     # save as
-    wb.SaveAs(str(nowdir / 'new.xlsx'))
+    wb.SaveAs(str(nowdir / 'converted_sample_sheet.xlsx'))
 
 except com_error as e:
     print('Failure.', e)
