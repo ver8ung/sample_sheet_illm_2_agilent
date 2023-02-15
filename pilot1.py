@@ -6,7 +6,11 @@ from pathlib import Path
 # Search string: Replace string
 REPLACE_TXTS = {
     '{{A701}}': 'AgilentI5',
-    '{{A702}}': 'AgilentI7'
+    '{{A702}}': 'AgilentI7',
+    '{{ATCACGAC}}': 'CAAGGTGA',
+    '{{TGAACCTT}}': 'TGAACCTT',
+    '{{ACAGTGGT}}': 'AGTCACTT',
+    '{{TGCTAAGT}}': 'GTCTCTTC'
 }
 
 nowdir = Path(__file__).absolute().parent
